@@ -1,0 +1,204 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/717e07ddc6113bb556087fc7998d3a64/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/2997fe74ec0e4f26e73fa241aa14112d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/735978001f94a0512b9e53b0c823b8b5/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/41c6f6e5289bfd9b3cb58e6f6fda736d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/b2df4f662f3fb400b2dc008ba02adf73/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/149e675437c4841461993e6e8947e684/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/cd856cf948652dadbc26ecca4116629f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5189ad449789f9a03468da3a85720e47/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/c793003fcc82a00a7a071ae9ee27bd1a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/132863313e58bcd1679acbe4f5363699/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/50ae7cf3fd53b0d7b6e5099e79c71ec9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/d139557dbe3d12c1a43f0e5aeea80e25/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/3ae9665aed5c94f9a458ca81aa76b973/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/11275f49a75b42eae8846b2723fe579e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5ac9b3f484e090835dfc39ab3edf9f46/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/c5b560b3bd35aba48b466e9023f79124/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/aae2e23384b0ecbe3ccfeae316d57940/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/83e7372d2400e23451c3f01394c607f2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5281cc17a304e11cd40bd2adc8ac6b67/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/30c17da3b7db32f2f10963f66fa94462/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/ba2a9ff1bf811eb41701025db1abb57f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/41c6d9e465e77e6a987850f579c7afda/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/9b38ac45e8ba354549b706533d96ad33/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/00c13658da322320ba72b9bab4145c8d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/cc2d84bdc760930001a0f4dc6e5f74b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/8af66efea79d8a99e6b9f96034a1fa62/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/302fea0faaf19122cd1db1c06781a40d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/e9de8dc8fdfd50ce2800a89a122fcd44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/c0ebab30b0172aa78ddee1a369a91e02/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/1b4b44a962d9ebe6defaccbfc2e78c3d/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:3:11-46
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:7:5-33:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/735978001f94a0512b9e53b0c823b8b5/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/735978001f94a0512b9e53b0c823b8b5/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:22:5-28:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/b2df4f662f3fb400b2dc008ba02adf73/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/b2df4f662f3fb400b2dc008ba02adf73/AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/83e7372d2400e23451c3f01394c607f2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/83e7372d2400e23451c3f01394c607f2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5281cc17a304e11cd40bd2adc8ac6b67/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5281cc17a304e11cd40bd2adc8ac6b67/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/83e7372d2400e23451c3f01394c607f2/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:12:13-39
+	android:label
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:10:13-45
+	android:roundIcon
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:11:13-58
+	android:icon
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:9:13-47
+	android:allowBackup
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:8:13-39
+	android:theme
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:13:13-44
+meta-data#com.google.android.actions
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:14:9-15:60
+	android:name
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:15:17-58
+activity#com.example.marvelsheroes.DetailHereos
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:17:9-18:20
+	android:name
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:17:19-47
+activity#com.example.marvelsheroes.ListHeroesActivity
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:19:19-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:21:17-68
+	android:name
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:23:17-76
+	android:name
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.example.marvelsheroes.MainActivity
+ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:26:9-32:20
+	android:name
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml:26:19-47
+uses-sdk
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/717e07ddc6113bb556087fc7998d3a64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/717e07ddc6113bb556087fc7998d3a64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/2997fe74ec0e4f26e73fa241aa14112d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/2997fe74ec0e4f26e73fa241aa14112d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/735978001f94a0512b9e53b0c823b8b5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/735978001f94a0512b9e53b0c823b8b5/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/41c6f6e5289bfd9b3cb58e6f6fda736d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/41c6f6e5289bfd9b3cb58e6f6fda736d/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/b2df4f662f3fb400b2dc008ba02adf73/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/b2df4f662f3fb400b2dc008ba02adf73/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/149e675437c4841461993e6e8947e684/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/149e675437c4841461993e6e8947e684/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/cd856cf948652dadbc26ecca4116629f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/cd856cf948652dadbc26ecca4116629f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5189ad449789f9a03468da3a85720e47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5189ad449789f9a03468da3a85720e47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/c793003fcc82a00a7a071ae9ee27bd1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/c793003fcc82a00a7a071ae9ee27bd1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/132863313e58bcd1679acbe4f5363699/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/132863313e58bcd1679acbe4f5363699/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/50ae7cf3fd53b0d7b6e5099e79c71ec9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/50ae7cf3fd53b0d7b6e5099e79c71ec9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/d139557dbe3d12c1a43f0e5aeea80e25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/d139557dbe3d12c1a43f0e5aeea80e25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/3ae9665aed5c94f9a458ca81aa76b973/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/3ae9665aed5c94f9a458ca81aa76b973/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/11275f49a75b42eae8846b2723fe579e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/11275f49a75b42eae8846b2723fe579e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5ac9b3f484e090835dfc39ab3edf9f46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5ac9b3f484e090835dfc39ab3edf9f46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/c5b560b3bd35aba48b466e9023f79124/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/c5b560b3bd35aba48b466e9023f79124/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/aae2e23384b0ecbe3ccfeae316d57940/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/aae2e23384b0ecbe3ccfeae316d57940/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/83e7372d2400e23451c3f01394c607f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/83e7372d2400e23451c3f01394c607f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5281cc17a304e11cd40bd2adc8ac6b67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/5281cc17a304e11cd40bd2adc8ac6b67/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/30c17da3b7db32f2f10963f66fa94462/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/30c17da3b7db32f2f10963f66fa94462/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/ba2a9ff1bf811eb41701025db1abb57f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/ba2a9ff1bf811eb41701025db1abb57f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/41c6d9e465e77e6a987850f579c7afda/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/41c6d9e465e77e6a987850f579c7afda/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/9b38ac45e8ba354549b706533d96ad33/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/9b38ac45e8ba354549b706533d96ad33/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/00c13658da322320ba72b9bab4145c8d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/00c13658da322320ba72b9bab4145c8d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/cc2d84bdc760930001a0f4dc6e5f74b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/cc2d84bdc760930001a0f4dc6e5f74b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/8af66efea79d8a99e6b9f96034a1fa62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/8af66efea79d8a99e6b9f96034a1fa62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/302fea0faaf19122cd1db1c06781a40d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/302fea0faaf19122cd1db1c06781a40d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/e9de8dc8fdfd50ce2800a89a122fcd44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/e9de8dc8fdfd50ce2800a89a122fcd44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/c0ebab30b0172aa78ddee1a369a91e02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/c0ebab30b0172aa78ddee1a369a91e02/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/1b4b44a962d9ebe6defaccbfc2e78c3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/1b4b44a962d9ebe6defaccbfc2e78c3d/AndroidManifest.xml:20:5-44
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alexandre/Desktop/alexis/MarvelsHeroes/app/src/main/AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/97758799e5759ee614270c865ffe3516/AndroidManifest.xml:24:13-83
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/b2df4f662f3fb400b2dc008ba02adf73/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/b2df4f662f3fb400b2dc008ba02adf73/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/b2df4f662f3fb400b2dc008ba02adf73/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/alexandre/.gradle/caches/transforms-2/files-2.1/b2df4f662f3fb400b2dc008ba02adf73/AndroidManifest.xml:9:13-64
