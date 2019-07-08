@@ -2,7 +2,7 @@
 <android.support.v7.widget.Toolbar
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
@@ -12,20 +12,22 @@
                                                  android:layout_height="match_parent">
         <ImageView
                 android:id="@+id/bt_icon_back"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="51dp"
+                android:layout_height="40dp"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:src="@drawable/ic_keyboard_arrow_left"/>
+                android:src="@drawable/ic_keyboard_arrow_left" android:layout_marginTop="8dp"
+                android:contentDescription="backButton"/>
 
         <TextView
                 android:id="@+id/text_title"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Titulo"
+                android:text="Title"
                 app:layout_constraintLeft_toRightOf="@id/bt_icon_back"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintRight_toRightOf="parent"/>
+                app:layout_constraintRight_toRightOf="parent" app:layout_constraintHorizontal_bias="0.39"
+                android:contentDescription="nameHero"/>
     </android.support.constraint.ConstraintLayout>
 </android.support.v7.widget.Toolbar>

@@ -1,4 +1,4 @@
-package com.example.marvelsheroes.ui.listheroes
+package com.example.marvelsheroes
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

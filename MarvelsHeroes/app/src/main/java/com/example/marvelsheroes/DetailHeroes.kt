@@ -1,11 +1,11 @@
-package com.example.marvelsheroes.ui.detailhereos
+package com.example.marvelsheroes
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.example.marvelsheroes.R
+import com.example.marvelsheroes.ui.detailhereos.DetailHereosFragment
 import com.ramat.origin.detailsmarvelmodule.model.Details
 
-class DetailHereos : AppCompatActivity() {
+class DetailHeroes : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +24,9 @@ class DetailHereos : AppCompatActivity() {
                 linkWiki = intent.getStringExtra("wiki"))
 
             supportFragmentManager.beginTransaction()
-                .replace(R.id.container, DetailHereosFragment.newInstance(details))
+                .replace(R.id.container,
+                    DetailHereosFragment.newInstance(details)
+                )
                 .commitNow()
         }
     }

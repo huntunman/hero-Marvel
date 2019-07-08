@@ -3,7 +3,6 @@ package com.example.marvelsheroes.ui.listheroes
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.DefaultItemAnimator
@@ -13,7 +12,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.marvelsheroes.R
-import com.example.marvelsheroes.ui.detailhereos.DetailHereos
+import com.example.marvelsheroes.DetailHeroes
 import kotlinx.android.synthetic.main.list_heroes_fragment.*
 import com.example.marvelsheroes.models.Result
 
@@ -78,7 +77,7 @@ class ListHeroesFragment : Fragment(), MarvelCharacterAdapter.AdapterListener {
     }
 
     override fun showDetails(char: Result) {
-        val intent = Intent(activity, DetailHereos::class.java)
+        val intent = Intent(activity, DetailHeroes::class.java)
         intent.putExtra("image", char.thumbnail.path + "." + char.thumbnail.extension)
         intent.putExtra("name", char.name)
         intent.putExtra("description", char.description)
