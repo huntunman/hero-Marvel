@@ -1,7 +1,0 @@
-#Thu Jul 04 15:29:24 CEST 2019
-base.0=/Users/alexandre/Desktop/alexis/MarvelsHeroes/app/build/intermediates/dex/debug/mergeExtDexDebug/out
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/Users/alexandre/Desktop/alexis/MarvelsHeroes/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
