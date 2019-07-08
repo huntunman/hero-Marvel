@@ -1,6 +1,8 @@
 package com.example.marvelsheroes.ui.detailhereos
 
 import android.arch.lifecycle.ViewModelProviders
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
@@ -26,8 +28,9 @@ class DetailHereosFragment : Fragment(), DetailsAdapter.DetailsListener {
 
 
     private lateinit var adapter: DetailsAdapter
-    private lateinit var listLinks: MutableList<Links>
     private lateinit var viewModel: DetailHereosViewModel
+    // private lateinit var listLinks: MutableList<Links>
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -51,6 +54,11 @@ class DetailHereosFragment : Fragment(), DetailsAdapter.DetailsListener {
             detalhes.linkDetails,
             detalhes.linkWiki,
             context))
+    }
+
+    override fun openHyperLink(links: String) {
+        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(links))
+        startActivity(browserIntent)
     }
 
 }

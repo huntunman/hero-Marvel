@@ -12,11 +12,13 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.marvelsheroes.DetailHereos
 import com.example.marvelsheroes.R
+import com.example.marvelsheroes.ui.detailhereos.DetailHereos
 import kotlinx.android.synthetic.main.list_heroes_fragment.*
+import com.example.marvelsheroes.models.Result
 
-class ListHeroesFragment : Fragment() {
+
+class ListHeroesFragment : Fragment(), MarvelCharacterAdapter.AdapterListener {
 
     companion object {
         fun newInstance() = ListHeroesFragment()
@@ -47,7 +49,7 @@ class ListHeroesFragment : Fragment() {
         configureObservers()
     }
 
-    fun configureObservers(){
+    private fun configureObservers(){
         viewModel.getHeroesList().observe(
             this, Observer { heroes ->
 
@@ -94,8 +96,4 @@ class ListHeroesFragment : Fragment() {
         Log.d("CLick", "clickable no item")
     }
 
-    override fun openHyperLink(links: String) {
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(links))
-        startActivity(browserIntent)
-    }
 }

@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import com.example.marvelsheroes.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main.view.*
+import com.example.marvelsheroes.models.Result
 
 class MarvelCharacterAdapter(private val character: MutableList<Result>,
 private val listener: AdapterListener

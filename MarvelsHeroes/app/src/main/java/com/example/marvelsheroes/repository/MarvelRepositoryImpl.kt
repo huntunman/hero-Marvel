@@ -1,7 +1,6 @@
 package com.example.marvelsheroes.repository
 
 import android.arch.lifecycle.MutableLiveData
-import android.provider.SyncStateContract
 import android.util.Log
 import com.example.marvelsheroes.api.MarvelApi
 import com.example.marvelsheroes.api.OnGetMarvelCallback
@@ -63,7 +62,7 @@ class MarvelRepositoryImpl: MarvelRepository {
         val ts = System.currentTimeMillis().toString()
         val hash = getMd5(ts)
 
-        service.getCharacters(ts, Constants.Keys.PUBLIC_KEY, hash, offset = offset.toString())
+        service.getCharacters(ts, Constants.Keys.PUBLIC_KEY, hash, offset = offset.toString(), limit = "0")
             .enqueue(object : Callback<ReturnData> {
                 override fun onResponse(call: Call<ReturnData>, response: Response<ReturnData>) {
 

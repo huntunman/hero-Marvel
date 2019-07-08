@@ -6,7 +6,6 @@ import android.arch.lifecycle.ViewModel
 import android.content.Context
 import android.net.ConnectivityManager
 import android.util.Log
-import com.example.marvelsheroes.ListHeroesActivity
 import com.example.marvelsheroes.api.OnGetMarvelCallback
 import com.example.marvelsheroes.models.ReturnData
 import com.example.marvelsheroes.repository.MarvelRepository

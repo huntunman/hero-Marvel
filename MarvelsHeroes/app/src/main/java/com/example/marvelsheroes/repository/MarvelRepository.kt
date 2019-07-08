@@ -6,7 +6,7 @@ import com.example.marvelsheroes.models.ReturnData
 
 interface MarvelRepository {
     //name: String, apiKey: String, ts: String, hash: String,
-    fun getCharacter(offset: Int,callback: OnGetMarvelCallback)
+    fun getCharacter(offset: Int, callback: OnGetMarvelCallback)
     fun getHeroes(): LiveData<ReturnData>
 
 }

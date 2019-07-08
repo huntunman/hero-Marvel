@@ -1,9 +1,11 @@
 package com.example.marvelsheroes.api
 
-import android.telecom.Call
+
 import com.example.marvelsheroes.models.ReturnData
 import retrofit2.http.GET
 import retrofit2.http.Query
+import retrofit2.Call
+
 
 interface MarvelApi{
     @GET("characters")
@@ -12,7 +14,7 @@ interface MarvelApi{
                       @Query("apikey") apiKey: String,
                       @Query("hash") hash: String,
                       @Query("limit") limit: String,
-                      @Query("offset") offset: String): ReturnData
+                      @Query("offset") offset: String): Call<ReturnData>
 
 }
 
