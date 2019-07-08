@@ -14,7 +14,6 @@
             tools:ignore="GoogleAppIndexingWarning">
         <meta-data
                 android:name="com.google.android.actions"/>
-
         <activity android:name=".DetailHeroes"/>
         <activity android:name=".ListHeroesActivity">
             <intent-filter>

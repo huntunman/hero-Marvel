@@ -1,3 +1,3 @@
-package com.ramat.origin.detailsmarvelmodule.model
+package com.example.marvelsheroes.models
 
 data class Links(val type: String, val links: String)

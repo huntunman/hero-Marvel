@@ -1,4 +1,4 @@
-package com.ramat.origin.detailsmarvelmodule.model
+package com.example.marvelsheroes.models
 
 data class Details(val name: String = "",
                    val description: String = "",

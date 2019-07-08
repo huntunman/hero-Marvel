@@ -5,12 +5,12 @@ import android.content.Context
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.marvelsheroes.R
-import com.ramat.origin.detailsmarvelmodule.model.Details
-import com.ramat.origin.detailsmarvelmodule.model.Links
+import com.example.marvelsheroes.models.Details
+import com.example.marvelsheroes.models.Links
 import com.squareup.picasso.Picasso
 
 class DetailHereosViewModel : ViewModel() {
-    var listLinks: ArrayList<Links> = ArrayList()
+    private var listLinks: ArrayList<Links> = ArrayList()
 
     fun configureScreen(
         details: Details,
@@ -41,7 +41,7 @@ class DetailHereosViewModel : ViewModel() {
     ) : MutableList<Links> {
         val linkComic = context?.getString(R.string.comic)?.let { Links(it, comics) }
         val linkDetails = context?.getString(R.string.details)?.let { Links(it, details) }
-        val linkWiki = context?.getString(R.string.wiki)?.let{Links(it, wiki)}
+        val linkWiki = context?.getString(R.string.wiki)?.let{ Links(it, wiki) }
 
         if (linkComic != null) {
             listLinks.add(linkComic)

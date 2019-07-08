@@ -3,7 +3,7 @@ package com.example.marvelsheroes
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.example.marvelsheroes.ui.detailhereos.DetailHereosFragment
-import com.ramat.origin.detailsmarvelmodule.model.Details
+import com.example.marvelsheroes.models.Details
 
 class DetailHeroes : AppCompatActivity() {
 

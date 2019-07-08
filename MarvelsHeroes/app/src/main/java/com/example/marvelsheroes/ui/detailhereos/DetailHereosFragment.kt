@@ -10,8 +10,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.marvelsheroes.R
-import com.ramat.origin.detailsmarvelmodule.model.Details
-import com.ramat.origin.detailsmarvelmodule.model.Links
+import com.example.marvelsheroes.models.Details
 import kotlinx.android.synthetic.main.carousel_layout.*
 import kotlinx.android.synthetic.main.detail_hereos_fragment.*
 

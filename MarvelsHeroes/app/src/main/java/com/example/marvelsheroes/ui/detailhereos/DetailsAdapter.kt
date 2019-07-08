@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.marvelsheroes.R
-import com.ramat.origin.detailsmarvelmodule.model.Links
+import com.example.marvelsheroes.models.Links
 import kotlinx.android.synthetic.main.link_button.view.*
 
 class DetailsAdapter(private val list: MutableList<Links>, private val listener: DetailsListener):
